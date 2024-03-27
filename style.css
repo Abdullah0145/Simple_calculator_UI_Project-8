@@ -1,0 +1,105 @@
+div.main-div {
+    box-shadow:0 0 1px gray;
+    width: 250px;
+    height: 500px;
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+div.main-div div.head {
+    height:25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+div.head button.arrow-icon {
+    border: 0;
+    background-color: white;
+}
+
+
+div.head button.equal-icon {
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
+div.head button.gmail-box {
+    border: 0;
+    background-color: white;
+}
+
+
+div.head button.colon-bars {
+    border: 0;
+    background-color: white;
+}
+
+
+.active-tab {
+    background-color: orangered !important;
+    color: white;
+}
+
+
+div.main-div div.screen {
+    flex-grow:2;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+div.screen button.zero {
+    border: 0;
+    background-color: white;
+    font-size: 50px;
+}
+
+
+div.main-div div.Input {
+   border-top:1px solid rgb(218, 218, 218);
+   flex-grow:1;
+   display: flex;
+   flex-direction: column;
+}
+
+
+button.special {
+    border: 0;
+    background-color: white;
+    color: orangered;
+    font-size: 20px;
+}
+
+
+button.local{
+    border: 0;
+    background-color: white;
+    font-size: 20px;
+}
+
+
+button.equals-btn {
+    border: 0;
+    background-color: orangered;
+    color:white;
+}
+
+
+div.row {
+    flex-grow:1;
+    display: flex;
+}
+
+
+div.row button{
+    flex-grow:1;
+}
+
